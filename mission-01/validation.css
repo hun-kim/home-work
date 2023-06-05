@@ -1,0 +1,28 @@
+.validation {
+  list-style: none;
+  font-size: 14px;
+}
+
+.validation a {
+  display: block;
+  text-decoration-line: none;
+}
+
+.validation li:first-child {
+  background: url(./../images/validation_icon\ 2.png) no-repeat;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  background-color: #5555;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.validation li:last-child {
+  background: url(./../images/validation_icon\ 2.png) no-repeat;
+  padding-left: 30px;
+  background-color: #5555;
+  border-radius: 20px;
+  width: 200px;
+}
+
+/* validation li -> 공통 요소 넣기 */
