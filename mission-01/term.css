@@ -1,0 +1,27 @@
+.webHeader {
+  background: linear-gradient(180deg, #cccc, rgba(255, 255, 255, 0.587));
+  width: 250px;
+  height: 259px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #cccc;
+}
+
+.webList {
+}
+
+.webTitle {
+  color: #296897;
+  font-weight: bold;
+}
+
+.webContents {
+}
+
+.webTitle2 {
+  color: #296897;
+  font-weight: bold;
+}
+
+.webContents2 {
+}
