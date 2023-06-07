@@ -6,6 +6,8 @@ body {
   font-family: "Abel";
 }
 
+/* padding 8px 주고, 로그인 버튼에서만 absolute */
+
 fieldset {
   border: 0;
 }
@@ -32,7 +34,7 @@ p > input {
   right: 4px;
 }
 
-/* 로그인 타이틀 */
+/* 로그인 타이틀 padding*/
 
 h3 {
   display: block;
@@ -45,10 +47,22 @@ h3 {
   font-weight: 400;
   font-size: 15px;
   line-height: 150%;
-
-  padding-top: 12px;
-  padding-left: 12px;
+  padding: 12px 0 8px 12px;
   margin: 0;
+}
+
+/* Input Class */
+
+input {
+  box-sizing: border-box;
+  width: 90px;
+  height: 24px;
+  padding: 0 0 0 8px;
+}
+
+label {
+  display: inline-block;
+  width: 50px;
 }
 
 /* 로그인 영역 */
@@ -73,9 +87,9 @@ h3 {
 
 /* 로그인 버튼 */
 .btnLogin {
-  position: relative;
-  bottom: 59px;
-  left: 155px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
   width: 50px;
   height: 58px;
   font-size: 13px;
@@ -86,27 +100,32 @@ h3 {
 }
 
 /* 회원 가입 아이디, 비밀번호 찾기 리스트 */
+/* flow root */
 .userInfo {
   border-top: 1px solid #dedede;
-  width: 209px;
+  width: 188px;
   margin: 0;
-  padding: 0;
-  position: relative;
-  bottom: 50px;
-  right: 8px;
+  padding: 8px;
+  /* --position: relative; */
+  /* --bottom: 50px;
+  --right: 8px; */
+  display: flow-root;
   /* diplay 처리 어떻게 하는지 */
+}
+
+.id,
+.pwd {
+  padding: 4px;
 }
 
 li {
   list-style: none;
   /* color 어떻게 주지? -- form 안에 넣어버림*/
   float: left;
-  position: relative;
+  /* --position: relative; */
   font-size: 13px;
-  top: 8px;
-  left: 8px;
 }
 
 li:nth-child(1) {
-  padding-right: 16px;
+  padding-right: 4px;
 }
