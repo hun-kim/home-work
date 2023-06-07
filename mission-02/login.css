@@ -1,5 +1,6 @@
 @import url(/mission-02/ally.css);
 
+/* 전체 폰트 적용 */
 body {
   font-size: 14px;
   font-family: "Abel";
@@ -9,11 +10,13 @@ fieldset {
   border: 0;
 }
 
+/* 링크 정리 */
 a {
   text-decoration-line: none;
   text-decoration: none;
 }
 
+/* p 태그 아이디, 비밀번호 내용 정리 */
 p {
   margin: 2px;
   padding: 0;
@@ -26,27 +29,11 @@ p > label {
 
 p > input {
   position: relative;
-  right: 2px;
+  right: 4px;
 }
 
-.loginSection {
-  background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
-  width: 244px;
-  height: 161px;
-  border-radius: 4px;
-  box-shadow: 6px 6px rgba(128, 128, 128, 0.632);
-}
+/* 로그인 타이틀 */
 
-.loginForm {
-  background-color: white;
-  position: relative;
-  width: 225px;
-  height: 80px;
-  margin-left: 8px;
-  border-radius: 6px;
-}
-
-/* 로그인 글씨 */
 h3 {
   display: block;
   width: 42px;
@@ -64,13 +51,33 @@ h3 {
   margin: 0;
 }
 
+/* 로그인 영역 */
+
+.loginSection {
+  background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
+  width: 244px;
+  height: 161px;
+  border-radius: 4px;
+  box-shadow: 6px 6px rgba(128, 128, 128, 0.632);
+}
+
+.loginForm {
+  background-color: white;
+  position: relative;
+  width: 220px;
+  height: 106px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 5px;
+}
+
 /* 로그인 버튼 */
 .btnLogin {
   position: relative;
   bottom: 59px;
-  left: 160px;
+  left: 155px;
   width: 50px;
-  height: 57px;
+  height: 58px;
   font-size: 13px;
   background: #ed552f;
   border-radius: 5px;
@@ -81,23 +88,25 @@ h3 {
 /* 회원 가입 아이디, 비밀번호 찾기 리스트 */
 .userInfo {
   border-top: 1px solid #dedede;
-  width: 220px;
+  width: 209px;
   margin: 0;
   padding: 0;
   position: relative;
-  bottom: 30px;
-  right: 10px;
+  bottom: 50px;
+  right: 8px;
   /* diplay 처리 어떻게 하는지 */
 }
 
 li {
   list-style: none;
-  /* color 어떻게 주지? */
+  /* color 어떻게 주지? -- form 안에 넣어버림*/
   float: left;
   position: relative;
-  top: 4px;
+  font-size: 13px;
+  top: 8px;
+  left: 8px;
 }
 
 li:nth-child(1) {
-  padding-right: 23px;
+  padding-right: 16px;
 }
