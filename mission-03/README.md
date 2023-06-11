@@ -10,11 +10,11 @@
 - 목록에 마우스를 올리면 5개의 목록이 펼쳐지도록 구현한다.
 - transition 속성을 활용하여 애니메이션 효과를 적용한다.
 
-# Result
+## Result
 
 <img src="./../images/Mission-03.gif" width="500" height="500"/>
 
-# Description
+## Description
 
 - HTML
   : Section > aside > div > h3 > ul 순으로 마크업하여 리스트 형태로 구성하였습니다.
