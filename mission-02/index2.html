@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      <!--로그인 섹션 -->
+      <section>
+        <h2>로그인</h2>
+        <form action="/" class="login-form">
+          <fieldset>
+            <legend>검색 폼</legend>
+            <div class="user-email">
+              <label for="userEmail">아이디</label>
+              <input
+                type="email"
+                id="userEmail"
+                required
+                placeholder="euid@euid.dev"
+              />
+            </div>
+            <div class="user-pw">
+              <label for="userPw">비밀번호</label>
+              <input
+                type="password"
+                id="userPw"
+                required
+                placeholder="8자리 이상"
+              />
+            </div>
+            <button class="login-button" type="submit">로그인</button>
+          </fieldset>
+        </form>
+        <ul class="login-member">
+          <li><a href="/">회원가입</a></li>
+          <li><a href="/">아이디/비밀번호 찾기</a></li>
+        </ul>
+      </section>
+      <section class="login">
+        <h2 class="ally">유효성 검사</h2>
+        <ul class="validation-list">
+          <li>
+            <a href="/" target="_blank" title="마크업 유효성 검사 사이트로 이동"
+              >W3C Markup Validation</a
+            >
+          </li>
+          <li>
+            <a href="/" target="_blank" title="CSS 유효성 검사 사이트로 이동"
+              >CSS Validation Service</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="term">
+        <h2>웹 관련 용어</h2>
+        <dl>
+          <div class="term-list-wrapper">
+            <dt class="term-list-subject">웹표준이란?</dt>
+            <dd class="term-list-thumbnail">
+              <img src="./../images/web_standards 1.png" alt="W3C" />
+            </dd>
+            <dd class="term-list-breif">
+              '함께 성장하는 바른 교육' 이듬(EUID)'과 멋사가 만났습니다. 좋은
+              프론트엔드 개발자를 양성하기 위해 최선의 노력을 다하겠습니다.
+              여러분도 적극 동참해 주시기 바랍니다.'
+            </dd>
+          </div>
+        </dl>
+        <dl>
+          <div class="term-list-wrapper cross">
+            <dt class="term-list-subject">웹표준이란?</dt>
+            <dd class="term-list-thumbnail">
+              <img src="./../images/web_standards 1.png" alt="W3C" />
+            </dd>
+            <dd class="term-list-breif">
+              '함께 성장하는 바른 교육' 이듬(EUID)'과 멋사가 만났습니다. 좋은
+              프론트엔드 개발자를 양성하기 위해 최선의 노력을 다하겠습니다.
+              여러분도 적극 동참해 주시기 바랍니다.'
+            </dd>
+          </div>
+        </dl>
+      </section>
+    </div>
+  </body>
+</html>

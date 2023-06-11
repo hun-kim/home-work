@@ -1,0 +1,19 @@
+/* 유효성 검사 */
+.validation-list {
+  margin-top: 25px;
+}
+
+/* 마진 겹침 현상 : 상하는 겹침 - 경계선이 있으면 겹치지 않음 */
+
+.validation-list li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+.validation-list a {
+  padding: 10px 10px 8px 50px;
+  background: pink
+  display: block;
+  border: 1px solid #aaa;
+  border-radius : 30px  
+}
