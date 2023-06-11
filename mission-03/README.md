@@ -17,7 +17,8 @@
 ## Description
 
 - HTML
-  : Section > aside > div > h3 > ul 순으로 마크업하여 리스트 형태로 구성하였습니다.
+
+  - Section > aside > div > h3 > ul 순으로 마크업하여 관련 페이지 내용들을 리스트 형태로 구성하였습니다.
 
 - CSS
   - 주어진 조건대로 transition을 사용해 드롭다운 형태 메뉴를 구성하였습니다. ul 태그 클래스에 transition을 높이와 padding에 각각 주었고, padding은 height가 늘어난 이후 시작되도록 delay를 0.5s 주었습니다.
