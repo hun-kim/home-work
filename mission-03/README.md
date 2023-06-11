@@ -12,7 +12,7 @@
 
 # Result
 
-<img src="./../images/Mission-03.gif" width="100" height="100"/>
+<img src="./../images/Mission-03.gif" width="500" height="500"/>
 
 # Description
 
