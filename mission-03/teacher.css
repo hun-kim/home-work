@@ -1,0 +1,58 @@
+body {
+  margin: 50px;
+}
+
+.gradient-effect {
+  width: 200px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: yellow linear-gradient(#ccc, #eee);
+}
+
+.spacing-sm {
+  padding: 5px;
+}
+.spacing-md {
+  padding: 10px;
+}
+.spacing-lg {
+  padding: 15px;
+}
+
+.related-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.accent-primary-color {
+  color: orangered;
+}
+.accent-secondary-color {
+  color: violet;
+}
+
+.related-list {
+  margin: 10px 0 0 0;
+  padding-left: 0;
+  list-style: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: #fff;
+  height: 27px;
+  overflow: hidden;
+  transition: height 400ms, padding-top 400ms 400ms;
+  box-sizing: border-box;
+}
+
+.related-list:hover {
+  padding: 10px 0;
+  height: 147px;
+}
+
+.related-list a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 0 10px 0 20px;
+  line-height: 25px;
+}
