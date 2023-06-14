@@ -1,0 +1,109 @@
+body {
+  margin: 50px;
+  font: pretendard;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+  font-size: 14px;
+}
+
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.gradient-effect {
+  width: 200px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: yellow linear-gradient(#ccc, #eee);
+}
+
+.spacing-sm {
+  padding: 5px;
+}
+.spacing-md {
+  padding: 10px;
+}
+.spacing-lg {
+  padding: 12px;
+}
+
+.rank {
+  position: relative;
+}
+
+.rank-title {
+  margin: 0;
+  font-size: 15px;
+}
+
+.accent-primary-color {
+  color: orangered;
+}
+.accent-secondary-color {
+  color: violet;
+}
+
+.rank-list {
+  list-style: none;
+  height: 147px;
+  font-size: 11px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.number {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #a3a3a3;
+  border-radius: 5px;
+  text-align: center;
+
+  color: white;
+}
+
+.rank-list a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 10px 4px 4px 0;
+}
+
+.rank-more {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.sprite {
+  background: url(./../images/rank.png) no-repeat;
+
+  /* padding-right: 4.0625rem;
+  height: 3.75rem; */
+}
+
+/* li 요소 포지션 위치가 어디 기준으로 있는지 찾아야함 */
+
+.spriteW3c {
+  background-position: right 10px;
+  /* padding-right: 20px; */
+}
+
+.spriteWeb {
+  background-position: right -31.5px;
+}
+
+.spriteZen {
+  background-position: right -10.5px;
+}
+
+.spriteMdn {
+  background-position: right -34px;
+}
